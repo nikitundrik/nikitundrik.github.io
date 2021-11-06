@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <style>
+  .topnav {
+    background-color: #160175;
+    overflow: hidden;
+  }
+  .topnav h1 {
+    font-family: sans-serif;
+    color: #ffffff;
+    overflow: hidden;
+  }
+  .topnav a {
+    font-family: sans-serif;
+    color: #b5b5b5;
+    overflow: hidden;
+  }
+  .topnav a:hover {
+    font-family: sans-serif;
+    color: #c6c6c6;
+    overflow: hidden;
+  }
+  p {
+    font-family: sans-serif;
+  }
+  </style>
+  <title>Local_Kings - {% block title %}{% endblock %}</title>
+</head>
+<body>
+  <div class="topnav">
+    <h1>Local_Kings</h1>
+    <a href="/">Homepage</a>
+    <a href="/projects">Projects</a>
+    <a href="/contactme">Contact me</a>
+  </div>
+  {% block bodyblock %}
+  {% endblock %}
+</body>
+</html>
