@@ -1,0 +1,48 @@
+@font-face {
+    font-family: "Oldprint";
+    src: url('Oldprint.ttf');
+}
+
+@font-face {
+    font-family: "Fira Code";
+    src: url('FiraCode-Regular.ttf');
+}
+
+body {
+    background-image: url('background.png');
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #dd9818;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    text-align: center;
+    display: block;
+    color: white;
+    text-decoration: none;
+}
+
+.linktext {
+    font-family: "Fira Code";
+}
+
+li a:hover {
+    background-color: #cc8c16;
+}
+
+h1 {
+    font-family: "Oldprint";
+}
+
+p {
+    font-family: "Fira Code";
+}
